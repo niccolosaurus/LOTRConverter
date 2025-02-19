@@ -10,7 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            // 
+            // Background Image
+            
+            VStack {
+                // Prancing Pony Image
+                
+                // Currency Exchange Text
+                
+                // Conversion Section
+                
+                // Info Button
+            }
         }
         
     }
