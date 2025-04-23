@@ -78,6 +78,9 @@ struct ContentView: View {
                 }
 
                 // Info Button
+                Image(systemName: "info.circle.fill")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
             }
         }
 
