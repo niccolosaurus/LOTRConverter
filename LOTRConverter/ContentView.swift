@@ -47,6 +47,7 @@ struct ContentView: View {
                         }
 
                         // Text Field
+                        Text("Text Field")
                     }
 
                     // Equals Sign
