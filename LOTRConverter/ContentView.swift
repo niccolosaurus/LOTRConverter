@@ -17,6 +17,10 @@ struct ContentView: View {
             
             VStack {
                 // Prancing Pony Image
+                Image(.prancingpony)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 200)
 
                 // Currency Exchange Text
 
