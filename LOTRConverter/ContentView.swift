@@ -51,6 +51,10 @@ struct ContentView: View {
                     }
 
                     // Equals Sign
+                    Image(systemName: "equal")
+                        .font(.largeTitle)
+                        .foregroundStyle(.white)
+                        .symbolEffect(.pulse)
 
                     // Right Conversion Section
                     VStack {
