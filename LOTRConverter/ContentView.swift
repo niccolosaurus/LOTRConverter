@@ -76,12 +76,16 @@ struct ContentView: View {
                         Text("Text Field")
                     }
                 }
+                
+                //Spacer to add some padding
+                Spacer()
 
                 // Info Button
                 Image(systemName: "info.circle.fill")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
             }
+            .border(.blue)
         }
 
     }
