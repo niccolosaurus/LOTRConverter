@@ -23,6 +23,9 @@ struct ContentView: View {
                     .frame(height: 200)
 
                 // Currency Exchange Text
+                Text("Currency Exchange")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
 
                 // Conversion Section
                 HStack {
