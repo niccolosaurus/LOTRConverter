@@ -34,8 +34,16 @@ struct ContentView: View {
                         // Currency
                         HStack {
                             // Currency Image
+                            Image(.silverpiece)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 33)
 
                             // Currency Text
+                            Text("Silver Piece")
+                                .font(.headline)
+                                .foregroundStyle(.white)
+                                
                         }
 
                         // Text Field
