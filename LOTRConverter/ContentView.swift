@@ -60,12 +60,20 @@ struct ContentView: View {
                     VStack {
                         // Currency
                         HStack {
-                            // Currency Image
-
                             // Currency Text
+                            Text("Gold Piece")
+                                .font(.headline)
+                                .foregroundStyle(.white)
+
+                            // Currency Image
+                            Image(.goldpiece)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 33)
                         }
 
                         // Text Field
+                        Text("Text Field")
                     }
                 }
 
