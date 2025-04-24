@@ -44,6 +44,15 @@ struct ExchangeInfo: View {
                         .scaledToFit()
                         .frame(height: 33)
                 }
+                
+                // Done Button
+                Button("Done") {
+                    
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.brown.mix(with: .black, by: 0.2))
+                .font(.largeTitle)
+                .padding()
             }
         }
     }
