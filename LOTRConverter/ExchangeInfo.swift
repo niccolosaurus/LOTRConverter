@@ -9,7 +9,24 @@ import SwiftUI
 
 struct ExchangeInfo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            // Background Parchment image
+            
+            VStack{
+                // title text
+                
+                // description text
+                
+                // exchagne rates
+                HStack{
+                    // left currency image
+                    
+                    // exchange rate text
+                    
+                    // right currency image
+                }
+            }
+        }
     }
 }
 
