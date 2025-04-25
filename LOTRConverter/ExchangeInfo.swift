@@ -28,22 +28,7 @@ struct ExchangeInfo: View {
                     .padding()
                 
                 // exchagne rates
-                HStack{
-                    // left currency image
-                    Image(.goldpiece)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                    
-                    // exchange rate text
-                    Text("1 Gold Piece = 4 Gold Pennies")
-                    
-                    // right currency image
-                    Image(.goldpenny)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                }
+                ExtractedView()
                 
                 // Done Button
                 Button("Done") {
@@ -62,4 +47,29 @@ struct ExchangeInfo: View {
 
 #Preview {
     ExchangeInfo()
+}
+
+struct ExtractedView: View {
+    var body: some View {
+        HStack{
+            // left currency image
+            Image(.goldpiece)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 33)
+            
+            // exchange rate text
+            Text("1 Gold Piece = 4 Gold Pennies")
+            
+            // right currency image
+            Image(.goldpenny)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 33)
+        }
+    }
+}
+
+#Preview {
+    ExtractedView()
 }
