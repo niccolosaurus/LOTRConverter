@@ -9,7 +9,22 @@ import SwiftUI
 
 struct SelectCurrency: View {
     var body: some View {
-    
+        ZStack {
+            // Parchement background image
+            
+            VStack {
+                // Text
+                
+                // Currency icons
+                
+                // Text
+                
+                // Currency Icons
+                
+                // Done button
+                
+            }
+        }
     }
 }
 
