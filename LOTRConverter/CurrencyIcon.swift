@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct CurrencyIcon: View {
-    @Environment(\.dismiss) var dismiss
+    let currencyImage: ImageResource
+    let currencyName: String
     
     var body: some View {
             // Currency icons
             ZStack(alignment: .bottom) {
                 // Currency Image
-                Image(.copperpenny)
+                Image(currencyImage)
                     .resizable()
                     .scaledToFit()
                 
                 // Currency Name
-                Text("Copper Penny")
+                Text(currencyName)
                     .padding(3)
                     .font(.caption)
                     .frame(maxWidth: .infinity)
@@ -33,5 +34,5 @@ struct CurrencyIcon: View {
 }
 
 #Preview {
-    CurrencyIcon()
+    CurrencyIcon(currencyImage: .goldpiece, currencyName: "Gold Piece")
 }
